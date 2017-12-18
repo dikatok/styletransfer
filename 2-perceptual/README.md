@@ -8,6 +8,7 @@
 - jupyter notebook
 #### Downloadables needed
 - [tensorflow vgg weights](http://www.cs.toronto.edu/~frossard/post/vgg16/)
+- [MS COCO 2014 training dataset](http://cocodataset.org/#download)
 
 ## How to run
 #### Notebook (includes the training and inference part)
