@@ -22,6 +22,10 @@ python generate.py <style_img_path> <content_img_path>
 python generate.py -h
 ```
 
+## Differences from the original paper
+- relu3_3 as content features instead of relu4_2
+- relu1_2, relu2_2, relu3_3, relu4_3 as style features instead of relu1_1, relu2_1, relu3_1, relu4_1, relu5_1
+
 ## QOL used
 - [miniconda](https://conda.io/miniconda.html)
 - [jupyter extension - codefolding](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
