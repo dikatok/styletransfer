@@ -7,7 +7,7 @@ This repository includes implementation and comparison of some recent advancemen
 - [x] A Neural Algorithm of Artistic Style [arxiv](https://arxiv.org/abs/1508.06576)
 - [x] Perceptual Losses for Real-Time Style Transfer and Super-Resolution [arxiv](https://arxiv.org/abs/1603.08155)
 - [ ] ZM-Net: Real-time Zero-shot Image Manipulation Network [arxiv](https://arxiv.org/abs/1703.07255v2)
-- [ ] Multi-style Generative Network for Real-time Transfer [arxiv](https://arxiv.org/abs/1703.06953)
+- [x] Multi-style Generative Network for Real-time Transfer [arxiv](https://arxiv.org/abs/1703.06953)
 - [ ] Meta Networks for Neural Style Transfer [arxiv](https://arxiv.org/abs/1709.04111)
 
 ## Resources (subject to change)
