@@ -17,7 +17,7 @@
 - start up the notebook in the root/project directory then open the corresponding notebook in browser
 - or open the notebook via IDE (eg. PyCharm)
 #### Python scripts (inference part only)
-- unzip the model available (models.zip) which is trained using Piet Mondrian's composition as style image
+- unzip the model available (models.zip) which is trained using stars as style image
 ```
 python generate.py <model_dir> <content_img_path>
 ```
