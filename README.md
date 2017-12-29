@@ -13,4 +13,6 @@ This repository includes implementation and comparison of some recent advancemen
 ## Resources (subject to change)
 1. MS COCO Dataset [link](http://cocodataset.org/#download)
 2. Pandora Dataset [link](http://imag.pub.ro/pandora/pandora_download.html)
-2. Tensorflow VGG16 weights [link](http://www.cs.toronto.edu/~frossard/post/vgg16/)
+3. Tensorflow VGG16 weights [link](http://www.cs.toronto.edu/~frossard/post/vgg16/)
+4. Test images [link](https://drive.google.com/open?id=1-OEv8ELX-RDB1DvY7i8qEJzziIxJ9T3B)
+5. 21 styles used in MSGnet [link](https://drive.google.com/open?id=1CkThmKjWKwgJ3QfkwrJQlypXMKSZF-xo)
