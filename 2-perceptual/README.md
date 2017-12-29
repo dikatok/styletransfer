@@ -6,12 +6,14 @@
 - matplotlib
 - numpy
 - jupyter notebook
-#### Downloadables needed
+#### Downloadables needed (for training)
 - [tensorflow vgg weights](http://www.cs.toronto.edu/~frossard/post/vgg16/)
 - [MS COCO 2014 training dataset](http://cocodataset.org/#download)
+- [test images](https://drive.google.com/open?id=1-OEv8ELX-RDB1DvY7i8qEJzziIxJ9T3B)
 
 ## How to run
 #### Notebook (includes the training and inference part)
+- for training, download the downloadables and extract them
 - start up the notebook in the root/project directory then open the corresponding notebook in browser
 - or open the notebook via IDE (eg. PyCharm)
 #### Python scripts (inference part only)

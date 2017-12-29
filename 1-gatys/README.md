@@ -8,6 +8,7 @@
 - jupyter notebook
 #### Downloadables needed
 - [tensorflow vgg weights](http://www.cs.toronto.edu/~frossard/post/vgg16/)
+- [test images](https://drive.google.com/open?id=1-OEv8ELX-RDB1DvY7i8qEJzziIxJ9T3B)
 
 ## How to run
 #### Notebook
