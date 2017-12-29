@@ -10,7 +10,7 @@ def args_parser():
     parser = argparse.ArgumentParser(description='Perceptual Losses for Real-Time Style Transfer and Super-Resolution')
     parser.add_argument('model_dir')
     parser.add_argument('content_image')
-    parser.add_argument('--out', default='images/result.jpg', help='Path to save transferred result', type=str)
+    parser.add_argument('--out', default='result.jpg', help='Path to save transferred result', type=str)
     parser.add_argument('--keep_colors', default=False, action='store_true')
     return parser.parse_args()
 
@@ -19,8 +19,7 @@ def main():
     args = args_parser()
 
     content_image = tf.keras.preprocessing.image.img_to_array(
-        tf.keras.preprocessing.image.load_img(args.content_image,
-                                              target_size=(256, 256)))
+        tf.keras.preprocessing.image.load_img(args.content_image))
 
     tf.reset_default_graph()
     eval_graph = tf.Graph()
@@ -47,7 +46,7 @@ def main():
             rh, rs, rv = np.split(result_hsv, axis=-1, indices_or_sections=3)
             return hsv_to_rgb(np.concatenate([oh, os, rv], axis=-1))
 
-        final_result = use_original_color(content_image.reshape((256, 256, 3)), result)
+        final_result = use_original_color(content_image.reshape((0, 0, 3)), result)
     else:
         final_result = result
 
