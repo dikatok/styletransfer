@@ -13,6 +13,7 @@
 
 ## How to run
 #### Notebook (includes the training and inference part)
+- for training, download the downloadables and extract them
 - start up the notebook in the root/project directory then open the corresponding notebook in browser
 - or open the notebook via IDE (eg. PyCharm)
 #### Python scripts (inference part only)
