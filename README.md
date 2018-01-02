@@ -3,6 +3,25 @@
 ## About this repository
 This repository includes implementation and comparison of some recent advancements in the area of style transfer with some or no modifications. 
 
+## Results
+### Content
+<img src="https://github.com/dikatok/images/blob/master/styletransfer/gundam.jpg" width="200" height="300" />
+
+### Styles
+<img src="https://github.com/dikatok/images/blob/master/styletransfer/styles/mosaic_ducks_massimo.jpg" width="200" height="300" /> <img src="https://github.com/dikatok/images/blob/master/styletransfer/styles/the_scream.jpg" width="200" height="300" /> <img src="https://github.com/dikatok/images/blob/master/styletransfer/styles/stars2.jpg" width="200" height="300" />
+
+### A Neural Algorithm of Artistic Style
+<img src="https://github.com/dikatok/images/blob/master/styletransfer/1-gatys/mosaicduck.jpg" width="200" height="300" /> <img src="https://github.com/dikatok/images/blob/master/styletransfer/1-gatys/scream.jpg" width="200" height="300" /> <img src="https://github.com/dikatok/images/blob/master/styletransfer/1-gatys/stars.jpg" width="200" height="300" />
+
+### Perceptual Losses for Real-Time Style Transfer and Super-Resolution
+<img src="https://github.com/dikatok/images/blob/master/styletransfer/2-perceptual/stars.jpg" width="200" height="300" />
+
+### ZM-Net: Real-time Zero-shot Image Manipulation Network
+<img src="https://github.com/dikatok/images/blob/master/styletransfer/3-zmnet/mosaicduck.jpg" width="200" height="300" /> <img src="https://github.com/dikatok/images/blob/master/styletransfer/3-zmnet/scream.jpg" width="200" height="300" /> <img src="https://github.com/dikatok/images/blob/master/styletransfer/3-zmnet/stars.jpg" width="200" height="300" />
+
+### Multi-style Generative Network for Real-time Transfer
+<img src="https://github.com/dikatok/images/blob/master/styletransfer/4-msgnet/mosaicduck.jpg" width="200" height="300" /> <img src="https://github.com/dikatok/images/blob/master/styletransfer/4-msgnet/scream.jpg" width="200" height="300" /> <img src="https://github.com/dikatok/images/blob/master/styletransfer/4-msgnet/stars.jpg" width="200" height="300" />
+
 ## Roadmap (subject to change)
 - [x] A Neural Algorithm of Artistic Style [arxiv](https://arxiv.org/abs/1508.06576)
 - [x] Perceptual Losses for Real-Time Style Transfer and Super-Resolution [arxiv](https://arxiv.org/abs/1603.08155)
